@@ -10,10 +10,10 @@ __set_seed: !apply:torch.manual_seed [!ref <seed>]
 
 # Directories: Replace !PLACEHOLDER with full path of the directory.
 # Download data from: http://groups.inf.ed.ac.uk/ami/download/
-data_folder: 'E:/ivoice_dataset/AMI/amicorpus' # !PLACEHOLDER # e.g., /path/to/amicorpus/
+data_folder: '/content/speechbrain/to/amicorpus/' # e.g., /path/to/amicorpus/
 
 # Download manual annotations from: http://groups.inf.ed.ac.uk/ami/download/
-manual_annot_folder: 'E:/ivoice_dataset/AMI/ami_public_manual_1.6.2' # !PLACEHOLDER # e.g., /path/to/ami_public_manual_1.6.2/
+manual_annot_folder: '/content/speechbrain/to/ami_public_manual_1.6.2/' # e.g., /path/to/ami_public_manual_1.6.2/
 
 output_folder: results/ami/ecapa/
 save_folder: !ref <output_folder>/save
